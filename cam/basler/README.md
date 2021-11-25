@@ -1,5 +1,5 @@
-# requirement 
-## for arm64 (jetson boards, raspberry pi)
+## requirement 
+- for arm64 (jetson boards, raspberry pi)
 
 
 1. install pylon viewer
