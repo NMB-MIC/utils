@@ -70,7 +70,7 @@ def rfid_read():
  
                       # send mqtt to nodered
                       ret = publish.single("Rfid/CardNo", 
-                            rfid, hostname="192.168.100.3")
+                            rfid, hostname="localhost")
 
                   #clear 
                   code = ''
