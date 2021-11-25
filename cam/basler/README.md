@@ -13,5 +13,8 @@ pip3 install pypylon
 ```
 
 3. run cam_basler.py 
+```
+python3 cam_basler.py
+```
 
 cr. :https://github.com/basler/pypylon
