@@ -1,7 +1,7 @@
 # utils
 
 ## RFID
-- rfid read employee card and send to mqtt (suraphop)
+- rfid read employee card and send to mqtt
 
 ## CAM
 - calibration
