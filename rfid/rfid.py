@@ -1,4 +1,14 @@
-'''RFID employee card reading and send mqtt''' 
+'''RFID employee card reading and send mqtt
+the program can changable 2points
+
+1: event number that you need 
+dev = InputDevice('/dev/input/event0')  
+
+2: Mqtt topic
+3. hostname (broker ip)
+ret = publish.single("Rfid/CardNo", 
+                        rfid, hostname="192.168.100.3")
+ ''' 
 
 import numpy as np
 import time
