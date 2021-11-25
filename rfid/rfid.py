@@ -2,7 +2,9 @@
 
 the program can changable 3points
 
-1: event number that you need 
+1: input device number that you need 
+(seein fucntion find device)
+
 dev = InputDevice('/dev/input/event0')  
 
 2: Mqtt topic
