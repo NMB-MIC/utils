@@ -1,9 +1,9 @@
 '''RFID employee card reading and send mqtt
 
-the program can changable 3points
+the program can changable 3 points
 
 1: input device number that you need 
-(seein fucntion find device)
+(see in function find device)
 
 dev = InputDevice('/dev/input/event0')  
 
@@ -21,9 +21,14 @@ import evdev
 
 from evdev import InputDevice, categorize, ecodes
 
+def find_device():
+  '''find input device'''
+  devices = [evdev.InputDevice(path) for path in evdev.list_devices()]
+  for device in devices:
+      print(device.path, device.name, device.phys)
 
-def rfidRead():
-  '''rfid reader empno card'''
+def rfid_read():
+  '''reading rfid empno card'''
 
   #mapping values
   RFID_LOOKUP = {
@@ -40,11 +45,6 @@ def rfidRead():
         28:'enter'
   }
   
-  #find device
-  #devices = [evdev.InputDevice(path) for path in evdev.list_devices()]
-  #for device in devices:
-      #print(device.path, device.name, device.phys)
-
   #reader code
   code = ''
   dev = InputDevice('/dev/input/event0') #device input
@@ -75,19 +75,15 @@ def rfidRead():
                   #clear 
                   code = ''
 
-
 def thread_rfid():
   '''thrading for rfid'''
-  return rfidRead()
+  return rfid_read()
 
 
 if __name__ == '__main__':
+    #find device
+    find_device()
 
-  #start threading rfid
-  thrrfid = threading.Thread(target=thread_rfid) 
-  thrrfid.start()
-
-  #find device
-  devices = [evdev.InputDevice(path) for path in evdev.list_devices()]
-  for device in devices:
-      print(device.path, device.name, device.phys)
+    #start threading rfid
+    thrrfid = threading.Thread(target=thread_rfid) 
+    thrrfid.start()
