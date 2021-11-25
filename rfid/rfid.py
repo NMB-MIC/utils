@@ -1,4 +1,5 @@
 '''RFID employee card reading and send mqtt
+author: Suraphop Bunsawat
 
 the program can changable 3 points
 
