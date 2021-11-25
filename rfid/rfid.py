@@ -1,6 +1,6 @@
 '''RFID employee card reading and send mqtt
 
-the program can changable 2points
+the program can changable 3points
 
 1: event number that you need 
 dev = InputDevice('/dev/input/event0')  
