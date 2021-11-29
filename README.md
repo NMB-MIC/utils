@@ -7,7 +7,6 @@
 ## CAM
 - nano camera tools
 - basler camera tools
-  - run a simple open camera
 
 ## jetson board setup
 - tensorrt
