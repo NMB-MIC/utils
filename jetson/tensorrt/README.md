@@ -1,15 +1,24 @@
 ## Requirement 
-- for arm64 (jetson boards)
-
-### setup list
+- for arm64 (Jetson Nano ,AGX Xavire)
 
 see: (https://github.com/jkjung-avt/tensorrt_demos)
 
 #### YOLO
-
-1. run rfid.py 
+1. requires TensorRT 6.x+.
+  - You could check which version of TensorRT has been installed on your Jetson system by looking at file names of the libraries.
 ```
-python3 rfid.py
+ls /usr/lib/aarch64-linux-gnu/libnvinfer.so*
+```
+2.  create project dir and clone tensorrt_demos
+```
+mkdir project &&
+cd project &&
+git clone https://github.com/jkjung-avt/tensorrt_demos.git 
+```
+3. Install pycuda
+```
+cd ${HOME}/project/tensorrt_demos/ssd
+./install_pycuda.sh
 ```
 
 
