@@ -5,6 +5,7 @@
 - rfid read employee card and send to mqtt
 
 ## CAM
+- nano camera tools
 - basler camera tools
   - run a simple open camera
 
