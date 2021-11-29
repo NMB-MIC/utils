@@ -30,7 +30,7 @@ sudo pip3 install onnx==1.4.1
 cd ${HOME}/project/tensorrt_demos/plugins &&
 make
 ```
-6. download pretrain models
+6. download pretrain models and convert to tensorrt
 ```
 cd ${HOME}/project/tensorrt_demos/yolo &&
 ./download_yolo.sh &&
