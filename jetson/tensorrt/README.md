@@ -9,6 +9,7 @@ see: (https://github.com/jkjung-avt/tensorrt_demos)
 ```
 ls /usr/lib/aarch64-linux-gnu/libnvinfer.so*
 ```
+![alt text](https://github.com/NMB-MIC/utils/blob/main/jetson/tensorrt/tensorrt_check_version.JPG)
 2.  create project dir and clone tensorrt_demos
 ```
 mkdir project &&
