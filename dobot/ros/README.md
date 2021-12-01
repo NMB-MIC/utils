@@ -24,7 +24,7 @@ git clone https://github.com/jetsonhacks/installROSXavier.git
 ```
 ./setupCatkinWorkspace.sh
 ```
-5. edit ip address
+5. edit ip address (use ip address of jetson board)
 ```
 gedit ~/.bashrc
 ```
