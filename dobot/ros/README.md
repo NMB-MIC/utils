@@ -2,7 +2,7 @@
 #### Requirement 
 - for arm64 (AGX Xavire)
 
-see: (https://github.com/jetsonhacks/installROSXavier
+see: (https://github.com/jetsonhacks/installROSXavier ,
 https://www.youtube.com/watch?v=HjFs00rrJfY)
 
 
