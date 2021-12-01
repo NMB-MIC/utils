@@ -28,7 +28,7 @@ git clone https://github.com/jetsonhacks/installROSXavier.git
 ```
 gedit ~/.bashrc
 ```
-![alt text](https://github.com/NMB-MIC/utils/blob/main/jetson/dobot/ros/edit_ip.JPG)
+![alt text](https://github.com/NMB-MIC/utils/blob/main/dobot/ros/edit_ip.JPG)
 6. check program complete
 - open new terminal
 ```
@@ -59,7 +59,7 @@ source $HOME/catkin_ws/devel/setup.bash
 ```
 roslaunch mg400_description display.launch
 ```
-![alt text](https://github.com/NMB-MIC/utils/blob/main/jetson/dobot/ros/demo.JPG)
+![alt text](https://github.com/NMB-MIC/utils/blob/main/dobot/ros/demo.JPG)
 5. controlling robot
 ```
 roslaunch dobot bringup.launch robot_ip:=192.168.1.6
