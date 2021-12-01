@@ -3,7 +3,7 @@
 - for arm64 (AGX Xavire)
 
 see: (https://github.com/jetsonhacks/installROSXavier)
-(https://www.youtube.com/watch?v=HjFs00rrJfY)
+https://www.youtube.com/watch?v=HjFs00rrJfY)
 
 
 #### How to install ros workspace
