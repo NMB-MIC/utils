@@ -9,7 +9,7 @@ https://www.youtube.com/watch?v=HjFs00rrJfY)
 #### How to install ros workspace
 1. requires qt5
 ```
-sudo apt-get install qtbase5-dev
+sudo apt-get install qtbase5-dev &&
 sudo apt-get install qtdeclarative5-dev
 ```
 2. git clone
