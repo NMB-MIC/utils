@@ -30,6 +30,10 @@ gedit ~/.bashrc
 ```
 ![alt text](https://github.com/NMB-MIC/utils/blob/main/dobot/ros/edit_ip.JPG)
 6. check program complete
+- run server
+```
+cd catkin_ws && roscore
+```
 - open new terminal
 ```
 cd catkin_ws &&
