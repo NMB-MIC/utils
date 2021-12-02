@@ -24,7 +24,7 @@ pwm.start(5)
 class App:
     '''control servo motor'''	
     def __init__(self, master):
-        '''creale toggle'''
+        '''create toggle'''
         frame = Frame(master)
         frame.pack()
         scale = Scale(frame, from_=0, to=180, 
